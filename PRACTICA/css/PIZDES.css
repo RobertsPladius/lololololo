@@ -1,0 +1,14 @@
+#PIZDA {
+	width: calc(100%/7); /*2ZADANIE*/
+	
+	transform: rotate(calc(3turn + 90deg)); /*3ZADANIE*/
+
+
+}
+#text{
+	font-size: calc(5vh + 20px); /*4ZADANIE*/
+	padding: calc(var(--paddingdouble)*2px);
+}
+html{
+	--paddingdouble:20;
+}
